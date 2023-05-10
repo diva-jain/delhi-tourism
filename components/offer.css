@@ -1,0 +1,118 @@
+ 
+.background {
+    background: #fffbf3 url(../images/CategorySectionBackground.webp);
+    width: 100%;
+    border: 1px solid #d9ad8c;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 24%);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top, center;
+    background-size: contain;
+    margin: 0px 10px;
+}
+
+.background img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.text {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: 20%;
+}
+
+.text h6 {
+    color: #000;
+}
+
+.offer .left img,
+.offer .right img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    margin: 0;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.offer .left {
+    height: unset;
+    width: auto;
+}
+
+
+.offer .middle h5 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333332;
+    line-height: 20px;
+}
+
+.offer .middle h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #cf3f3f;
+    line-height: 55px;
+    margin-bottom: 11px;
+}
+
+.offer .middle p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #000;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.sing-page {
+    background: url('../images/Dark-background.jpg');
+    width: 100%;
+}
+
+.offer {
+    position: relative;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 50px;
+}
+
+.offer .middle {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.offer .left {
+    width: 33%;
+}
+
+.offer .right {
+    width: 33%;
+    height: unset;
+}
+
+.offer .right .text {
+    top: 0;
+    height: 100%;
+}
+
+.offer .right img {
+    height: 95%;
+    padding-top: 15px;
+}
+
+.offer .flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

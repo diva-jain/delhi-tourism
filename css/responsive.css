@@ -1,0 +1,261 @@
+@media(max-width:1420px) {
+    .back-img {
+        height: 300px;
+        padding: 50px 0px 50px;
+    }.offer .flexbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }.offer .left {
+        width: 25%;
+        height: unset;
+    }.offer .right {
+        width: 25%;
+        height: unset;
+    }.offer .middle {
+        max-width: 100%;
+        width: 100%; 
+        padding: 0px 50px;
+    }.formsectiobbox {
+        width: 40%;
+        margin-top: 30px;
+    }.formsectiobbox form { 
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:1320px) {
+    .container {
+        padding: 0px 0px;
+        width: 100%;
+    }.back-img {
+        height: 220px;
+        padding: 50px 0px 50px;
+    }.textzone {
+        width: 80vh;
+        top: 30%;
+    }
+    .textzone h1 {
+        font-size: 25px;
+        margin: 0px 0px 10px;
+        padding: 0;
+        line-height: 30px;
+    }.textzone h4 {
+        font-size: 12px; 
+        line-height: 20px; 
+    }.textzone a {
+        font-size: 13px;
+        padding: 5px 20px;
+        margin: 20px 0px 0px;
+        letter-spacing: 0.5px;
+    }.tourist-place { 
+        padding: 30px 0px 20px;
+    }.titlehading {
+        font-size: 16px; 
+        padding: 10px 20px;
+        margin: 0px 10px 10px; 
+        line-height: 30px;
+    }.flexbox {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        padding: 0px 0px;
+        width: 100%;
+    }.place {
+        width: calc(94% / 3 - 20px);
+        margin: 0px 5px 10px;
+        display: inline-block;
+        padding: 10px;
+    }.place-img {
+        width: 100%;
+        height: 20vh;   
+    }.place a { 
+        gap: 10px; 
+    }.taxt-area h6 {
+        font-size: 16px; 
+        margin: 0px 0px 5px;
+        padding: 0;
+    }.taxt-area p { 
+        font-size: 12px; 
+        line-height: 20px; 
+        padding: 0px 0px;
+    }.background {
+        width: 95%;
+        margin: 0px auto;
+    }
+    .offer { 
+        padding: 0px 0px 50px;
+    }
+    .offer .flexbox {
+        gap: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }.offer .middle p {
+        font-size: 10px;
+        margin-top: 10px;
+        line-height: 15px;
+    }.offer .middle h1 {
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }.offer .middle h5 {
+        font-size: 13px;
+        line-height: 20px;
+    }.offer .left {
+        height: auto;
+        width: 30%;
+    }.offer .left img, .offer .right img { 
+        height: auto; 
+    }.offer .right {
+        width: 30%;
+        height: auto;
+    }.offer .right .text {
+        top: 0;
+        height: 100%;
+    }.offer .middle {
+        max-width: 100%;
+        width: 100%; 
+        padding: 0px 30px;
+    }.text {
+        top: 0;
+    }.hading h3 {
+        font-size: 30px; 
+        margin-bottom: 10px;
+    }.hading h5 {
+        font-size: 14px; 
+    }.hading a {
+        font-size: 16px;  
+        margin: 20px auto 0px;
+        padding: 5px 50px; 
+    }
+}
+/*-- Mobile --*/
+ @media(max-width:767px) {
+     .container {
+         padding: 0px 0;
+         width: 100%;
+     }
+     .place {
+         width: 100%;
+         padding: 10px;
+         margin: 0px 0px 30px;
+     }
+     .back-img {
+         height: 160px;
+         padding: 30px 0px 30px;
+     }
+     .textzone {
+         width: 80%;
+         top: 0%;
+     }
+     .textzone h1 {
+         font-size: 18px;
+         margin: 0px 0px 8px;
+         line-height: 25px;
+     }
+     .textzone h4 {
+         font-size: 11px;
+         line-height: 18px;
+     }
+     .textzone a {
+         font-size: 13px;
+         padding: 5px 20px;
+         margin: 10px 0px 0px;
+     }
+     .tourist-place {
+         padding: 30px 0px 0px;
+     }
+     .titlehading {
+         font-size: 16px;
+         padding: 15px 20px;
+         margin: 0px 10px 10px;
+         line-height: 20px;
+     }
+     .flexbox {
+         padding: 0px 15px;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         width: auto;
+     }
+     .offer .flexbox {
+         justify-content: space-between;
+         flex-direction: column-reverse;
+         gap: 30px;
+         padding: 0;
+         align-items: baseline;
+     }
+     .offer .middle {
+         max-width: 90%;
+         padding: 0px;
+         margin: 0 auto;
+         display: block;
+     }
+     .text {
+         margin: 0;
+         padding: 0;
+         width: 100%;
+         top: 0;
+     }
+     .offer .middle h5 {
+         font-size: 14px;
+         line-height: 10px;
+     }
+     .offer .middle h1 {
+         font-size: 40px;
+         line-height: 45px;
+         margin-bottom: 10px;
+     }
+     .offer .middle p {
+         font-size: 12px;
+         margin-top: 0px;
+         line-height: 25px;
+     }
+     .offer .left {
+         height: 100%;
+     }
+     .offer {
+         padding: 0px 15px 50px;
+     }
+     .background {
+         margin: 0px 0px;
+         border: unset;
+         width: 100%;
+     }
+     .hading h3 {
+         font-size: 25px;
+         margin-bottom: 0px;
+     }
+     .hading h5 {
+         font-size: 13px;
+     }
+     .hading a {
+         font-size: 15px;
+         border: 2px solid #fff;
+         margin: 20px auto 0px;
+         padding: 5px 50px;
+     }.offer .right {
+        width: 30vh;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }.offer .left img, .offer .right img {
+        height: 100%;
+    }.offer .left {
+        height: 100%;
+        width: 50%;
+    }.place-img {
+        width: 100%;
+        height: 35vh;
+    }.formsectiobbox {
+        width: 100%;
+        margin-top: 30px;
+    }.formsectiobbox form {
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }.formsectiobbox {
+        width: 70%; 
+    }
+ }  
